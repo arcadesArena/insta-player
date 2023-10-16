@@ -1,0 +1,12 @@
+{
+    "name":"Insta-Player",
+    "version":"0.0.1",
+    "manifest_version":3,
+    "content_scripts":[
+        {
+            "matches":["https://www.instagram.com/*"],
+            "js":["content.js"],
+            "run_at":"document_end"
+        }
+    ]
+}
